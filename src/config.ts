@@ -4,8 +4,12 @@ module.exports = {
     PATH_PACKAGE : './package.json',
     NON_WEBPACK_COMPONENTS : [
         {
-            option  : 'autoIncrease',
+            option  : 'autoIncreaseVersion',
             path    : './components/auto-inc-version'
+        },
+        {
+            option  : 'autoIncreaseBuild',
+            path    : './components/auto-inc-build'
         }
     ],
     WEBPACK_COMPONENTS : [
